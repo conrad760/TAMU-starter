@@ -1,0 +1,133 @@
+
+
+{
+  "languageDetection": {
+    "documents": [
+      {
+        "id": "566259ee-9008-4a36-934d-2606646be33f",
+        "detectedLanguages": [
+          {
+            "name": "English",
+            "iso6391Name": "en",
+            "score": 1.0
+          }
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "keyPhrases": {
+    "documents": [
+      {
+        "id": "566259ee-9008-4a36-934d-2606646be33f",
+        "keyPhrases": [
+          "week",
+          "Space Needle",
+          "wonderful trip",
+          "Seattle",
+          "times"
+        ]
+      }
+    ],
+    "errors": []
+  },
+  "sentiment": {
+    "documents": [
+      {
+        "id": "566259ee-9008-4a36-934d-2606646be33f",
+        "score": 0.83725243806838989
+      }
+    ],
+    "errors": []
+  },
+  "entities": {
+    "documents": [
+      {
+        "id": "566259ee-9008-4a36-934d-2606646be33f",
+        "entities": [
+          {
+            "name": "Seattle",
+            "matches": [
+              {
+                "text": "Seattle",
+                "offset": 26,
+                "length": 7
+              }
+            ],
+            "wikipediaLanguage": "en",
+            "wikipediaId": "Seattle",
+            "wikipediaUrl": "https://en.wikipedia.org/wiki/Seattle",
+            "bingId": "5fbba6b8-85e1-4d41-9444-d9055436e473",
+            "type": "Location",
+            "subType": null
+          },
+          {
+            "name": "last week",
+            "matches": [
+              {
+                "text": "last week",
+                "offset": 34,
+                "length": 9
+              }
+            ],
+            "wikipediaLanguage": null,
+            "wikipediaId": null,
+            "wikipediaUrl": null,
+            "bingId": null,
+            "type": "DateTime",
+            "subType": "DateRange"
+          },
+          {
+            "name": "Space Needle",
+            "matches": [
+              {
+                "text": "Space Needle",
+                "offset": 65,
+                "length": 12
+              }
+            ],
+            "wikipediaLanguage": "en",
+            "wikipediaId": "Space Needle",
+            "wikipediaUrl": "https://en.wikipedia.org/wiki/Space_Needle",
+            "bingId": "f8dd5b08-206d-2554-6e4a-893f51f4de7e",
+            "type": "Location",
+            "subType": null
+          },
+          {
+            "name": "Space Needle",
+            "matches": [
+              {
+                "text": "Space Needle",
+                "offset": 65,
+                "length": 12
+              }
+            ],
+            "wikipediaLanguage": null,
+            "wikipediaId": null,
+            "wikipediaUrl": null,
+            "bingId": null,
+            "type": "Organization",
+            "subType": null
+          },
+          {
+            "name": "2",
+            "matches": [
+              {
+                "text": "2",
+                "offset": 78,
+                "length": 1
+              }
+            ],
+            "wikipediaLanguage": null,
+            "wikipediaId": null,
+            "wikipediaUrl": null,
+            "bingId": null,
+            "type": "Quantity",
+            "subType": "Number"
+          }
+        ]
+      }
+    ],
+    "errors": []
+  }
+}
