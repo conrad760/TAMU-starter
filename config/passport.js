@@ -4,7 +4,7 @@ const { Strategy: LocalStrategy } = require('passport-local');
 const { Strategy: GitHubStrategy } = require('passport-github');
 const { OAuth2Strategy: GoogleStrategy } = require('passport-google-oauth');
 const moment = require('moment');
-
+const _ = require('lodash');
 const User = require('../models/User');
 
 passport.serializeUser((user, done) => {
