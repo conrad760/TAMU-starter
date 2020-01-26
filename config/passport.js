@@ -52,7 +52,7 @@ passport.use(new LocalStrategy({ usernameField: 'email' }, (email, password, don
  *     - If there is, return an error message. (Account merging not supported)
  *     - Else link new OAuth account with currently logged-in user.
  * - User is not logged in.
- *   - Check if it's a returning user.
+ *   - Check if it's a returniuser.
  *     - If returning user, sign in and we are done.
  *     - Else check if there is an existing account with user's email.
  *       - If there is, return an error message.
